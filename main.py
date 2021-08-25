@@ -9,7 +9,6 @@ res = scraping()
 To = "hogehoge@gmail.com(Please enter the email address to which you want to send the file.)"
 Subject = "subject of the email"
 MailBody = res
-# FileName = 'ファイル名.docx'
 
 """editing required"""
 
@@ -31,10 +30,8 @@ def writedata(data):
 
 
 if text == res:
-    print("更新なし！")
+    print("No update.")
 else:
-    print("更新があります！")
+    print("Get to update！")
     writedata(res)
     gmail_send(To, Subject, MailBody)
-
-# res[0]でコンテンツ,res[1]でurl
