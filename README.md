@@ -1,7 +1,7 @@
 # Scraping-Mail
 Over view:This is a scraping program that will scrape and send any updates to a specified email address in the form of gmail.
 
-UsageStep
+Use Step
 ①Instal scraiping-Mail
 
 
