@@ -3,7 +3,7 @@ Over view:This is a scraping program that will scrape and send any updates to a 
 
 Use Step
 ①Instal scraiping-Mail
-
+git clone 
 
 
 
