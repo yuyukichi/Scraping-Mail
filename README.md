@@ -14,7 +14,8 @@ https://support.google.com/accounts/answer/185839?hl=ja&co=GENIE.Platform%3DDesk
 ※Please make a note to password.
 <img width="649" alt="二段階認証" src="https://user-images.githubusercontent.com/66237437/130762052-7983a8b5-6a92-43c1-84a1-b06d42f6cd45.png">
 <h3>④Edit main.py and mail.py in the downloaded scraping mail.</h3>
-``` main.py 
+
+``` 
 """ Mail body settings（editing required）"""
 To = "hogehoge@gmail.com(Please enter the email address to which you want to send the file.)"
 Subject = "subject of the email"
