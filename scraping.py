@@ -5,10 +5,10 @@ import re
 
 def scraping():
     url = 'https://www.hogehoge.co.jp/company/news/'
-    # 取得したいURL
+    # The url you want to get.
 
     res = requests.get(url)
     soup = BeautifulSoup(res.text, "html.parser")
-    elems = soup.find_all('a', class_='c-news__link')
-    #                    　⬆ここと⬆で要素とクラスを指定
+    elems = soup.find_all('a', class_='news__link')
+    # Specify html elements and classes
     return str(elems[0].contents[0])+str(elems[0].attrs["href"])
