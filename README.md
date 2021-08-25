@@ -10,12 +10,30 @@ git clone git@github.com:yuyukichi/Scraping-Mail.git
 <h3>②create new GmailAcount</h3>
 https://support.google.com/mail/answer/56256?hl=ja
 <h3>③setting two-step verification to GmailAcount</h3>
-https://support.google.com/accounts/answer/185839?hl=ja&co=GENIE.Platform%3DDesktop
+https://support.google.com/accounts/answer/185839?hl=ja&co=GENIE.Platform%3DDesktop<br>
 ※Please make a note to password.
 <img width="649" alt="二段階認証" src="https://user-images.githubusercontent.com/66237437/130762052-7983a8b5-6a92-43c1-84a1-b06d42f6cd45.png">
 <h3>④Edit main.py and mail.py in the downloaded scraping mail.</h3>
+``` main.py 
+""" Mail body settings（editing required）"""
+To = "hogehoge@gmail.com(Please enter the email address to which you want to send the file.)"
+Subject = "subject of the email"
+MailBody = res
+```
+Edit Variable To and Variable Subject.<br>
+※Edit both main.py and mail.py.
 
+``` mail.py
+def gmail_send(To, Subject, MailBody):
+    """ Mail settings（editing required）"""
+    # connecting SMTP server・login information
+    my_mail = "fugafuga@gmail.com"
+    app_password = "pgvyuvbqxzeykrph"
+    # Enter the address of the gmail account you created and the app password.
+```
+Edit my_mail and app_password to the gmail account you created.
 
+<h3>⑤Edit scraping</h3>
    
 Environment：python3
 (It has been tested in a mac environment.)
