@@ -43,3 +43,6 @@ def gmail_send(To, Subject, MailBody):
     smtp.quit()
 
     print("sent to mail")
+
+
+"yu"
