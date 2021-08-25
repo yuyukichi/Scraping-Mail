@@ -9,6 +9,6 @@ def scraping():
 
     res = requests.get(url)
     soup = BeautifulSoup(res.text, "html.parser")
-    elems = soup.find_all('a', class_='news__link')
+    elems = soup.find_all('a', class_='class__link')
     # Specify html elements and classes
     return str(elems[0].contents[0])+str(elems[0].attrs["href"])
