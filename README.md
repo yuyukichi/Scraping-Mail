@@ -5,6 +5,8 @@ Use Step
 ①Instal scraiping-Mail
 
 
+
+
 Environment：python3
 (It has been tested in a mac environment.)
 
