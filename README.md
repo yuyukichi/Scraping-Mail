@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Scraping-Gmail
-=======
 # Scraping-Mail
 Over view:This is a scraping program that will scrape and send any updates to a specified email address in the form of gmail.
 <img width="1079" alt="scraiping" src="https://user-images.githubusercontent.com/66237437/130757792-4d9afa28-6ff0-4651-b02c-fd29b61ad7d0.png">
@@ -63,4 +60,3 @@ python main.py
 Environment：python3
 (It has been tested in a mac environment.)
 <p>License:MITLICENSE</p>
->>>>>>> be1c2b9f69b749e1a47cc615ee7f2158acc2f53e
