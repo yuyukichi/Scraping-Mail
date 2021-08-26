@@ -10,7 +10,7 @@ To = "hogehoge@gmail.com(Please enter the email address to which you want to sen
 Subject = "subject of the email"
 MailBody = res
 
-"""editing required"""
+"""Seting savedate (No editing required)"""
 
 
 def checktext():
