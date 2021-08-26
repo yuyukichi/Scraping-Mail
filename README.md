@@ -3,7 +3,7 @@ Over view:This is a scraping program that will scrape and send any updates to a 
 <img width="1079" alt="scraiping" src="https://user-images.githubusercontent.com/66237437/130757792-4d9afa28-6ff0-4651-b02c-fd29b61ad7d0.png">
 
 <h1>Use Step</h1>
-<h3>①Instal scraiping-Mail</h3>
+<h3>①Instal Scraiping-Mail</h3>
 
 ```
 git clone git@github.com:yuyukichi/Scraping-Mail.git
