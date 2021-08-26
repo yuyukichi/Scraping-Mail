@@ -51,7 +51,7 @@ def scraping():
 1.Set the ``url`` to the URL of the site you want to scrape.<br>
 2.Set the html tag and class to be retrieved as the argument of ``soup.find_all``
 
-<h3>⑤Let run main.py!
+<h3>⑤Let run Scraping-Mail!
     
 ``` 
 python main.py
