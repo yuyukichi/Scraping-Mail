@@ -12,7 +12,7 @@ git clone git@github.com:yuyukichi/Scraping-Mail.git
 https://support.google.com/mail/answer/56256?hl=ja
 <h3>③setting two-step verification to GmailAcount</h3>
 https://support.google.com/accounts/answer/185839?hl=ja&co=GENIE.Platform%3DDesktop<br>
-※Please make a note to password.
+※Please make a note to app password.
 <img width="649" alt="二段階認証" src="https://user-images.githubusercontent.com/66237437/130762052-7983a8b5-6a92-43c1-84a1-b06d42f6cd45.png">
 <h3>④Edit main.py and mail.py in the downloaded Scraping-Mail.</h3>
 
